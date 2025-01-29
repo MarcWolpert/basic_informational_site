@@ -1,20 +1,37 @@
 {
-  "name": "basic_informational_site",
-  "version": "1.0.0",
-  "description": "MPA with SSR using Typescript, Express, Parcel/Webpack, and React.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarcWolpert/basic_informational_site.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarcWolpert/basic_informational_site/issues"
-  },
-  "homepage": "https://github.com/MarcWolpert/basic_informational_site#readme"
+	"name": "basic_informational_site",
+	"version": "1.0.0",
+	"description": "MPA with SSR using Typescript, Express, Parcel/Webpack, and React.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"run": "parcel src/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarcWolpert/basic_informational_site.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MarcWolpert/basic_informational_site/issues"
+	},
+	"homepage": "https://github.com/MarcWolpert/basic_informational_site#readme",
+	"dependencies": {
+		"@types/ejs": "^3.1.5",
+		"@types/express": "^5.0.0",
+		"ejs": "^3.1.10",
+		"express": "^4.21.2",
+		"typescript": "^5.7.3"
+	},
+	"devDependencies": {
+		"@types/morgan": "^1.9.9",
+		"@types/nodemon": "^1.19.6",
+		"morgan": "^1.10.0",
+		"nodemon": "^3.1.9",
+		"parcel": "^2.13.3",
+		"ts-node": "^10.9.2"
+	}
 }
